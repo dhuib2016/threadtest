@@ -30,6 +30,6 @@ val=${val}"\tclean\n\n"
 val=${val}"clean:\n"
 val=${val}"\trm ${INPUT}.o ${INPUT}"
 
-echo ${val} > Makefile
+echo -e ${val} > Makefile
 
 
